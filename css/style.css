@@ -20,3 +20,76 @@ body {
     left: -200px;
     max-width: 100px;
 }
+
+.golem {
+    position: absolute;
+    left: -230px;
+    max-width: 230px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: tan;
+
+}
+
+
+#header {
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-size: calc(16px + 2.5vw);
+    width: 100%;
+    background-position: center right;
+    background-position: center right
+}
+
+
+article {
+	margin-bottom: 0 ;
+	padding: 1em ;
+	margin: auto ;
+    color:#1e2122;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+  }
+
+a {
+    text-decoration: none;
+    color:#1e2122;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+}
+
+article ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+article ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+article ul li:hover {
+    transform: rotate(-3deg);
+    text-decoration: underline;
+
+}
+
+article ul li a {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 0;
+    font-size: 20px;
+}
