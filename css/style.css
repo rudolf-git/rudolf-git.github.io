@@ -46,7 +46,7 @@ main {
 }
 
 
-article {
+nav {
 	margin-bottom: 0 ;
 	padding: 1em ;
 	margin: auto ;
@@ -68,25 +68,25 @@ a:hover {
     padding-bottom: 2px;
 }
 
-article ul {
+nav ul {
     margin: 0;
     padding: 0;
     padding-right: 10px;
     margin-top: 10px;
 }
 
-article ul li {
+nav ul li {
     display: inline-block;
     padding-right: 30px;
 }
 
-article ul li:hover {
+nav ul li:hover {
     transform: rotate(-3deg);
     text-decoration: underline;
 
 }
 
-article ul li a {
+nav ul li a {
     display: inline-block;
     margin-bottom: 5px;
     width: 100%;
