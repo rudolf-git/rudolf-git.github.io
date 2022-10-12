@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golems</title>
+      <link>http://example.org/golems/</link>
+      <pubDate>Mon, 03 Oct 2022 23:23:23 -0300</pubDate>
+      
+      <guid>http://example.org/golems/</guid>
+      <description>Golems | Golens | ゴーレム | Golems | Golems | големы Nowadays people create a lot of Golems to do their work, and someone&amp;rsquo;s else work. These modern Golems, are nothing more then machines and automated tasks.
+From simple working Golems, that do wake you up in the morning, the ones that remind you of events, the ones that whenever you have a message or letter do the delivery.
+To even more intelligent and hardworking ones, that do drive your car for you and even the ones that constantly admire you behavior, actions and tastes so they can share it to your butler what kind of meals you are enjoying the most.</description>
+    </item>
+    
+    <item>
+      <title>Luck</title>
+      <link>http://example.org/luck/</link>
+      <pubDate>Sun, 02 Oct 2022 23:23:23 -0300</pubDate>
+      
+      <guid>http://example.org/luck/</guid>
+      <description>Luck | Sorte | 幸運 | Glück | Fortune | удача Have you ever thought that luck is acquired through luck ?
+Luck is relative to the one experiencing it, but there is not an explanation from where someone get luck despite out of pure luck
+Luck seems something mysterious like &amp;rsquo;the force&amp;rsquo; in star wars, except it is not something that can be trained to gain or to keep a constant reserve</description>
+    </item>
+    
+  </channel>
+</rss>

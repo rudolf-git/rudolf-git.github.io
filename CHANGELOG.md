@@ -1,4 +1,8 @@
 
+### 2022-10-12
+- Learned about acessibility WCAG and applied them to single pages layouts
+- Migrated development to Hugo
+- Create a footer for the index.html page containing a web-ring and hugo logo
 
 
 ### 2022-10-03

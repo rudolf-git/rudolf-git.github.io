@@ -9,87 +9,49 @@ body {
 #blog {
     border: 0px solid; 
     border-style: solid;
-    border-color: rgba(255, 255, 255, 0.09);
+    border-color: #ffffff17;
     background-color: rgba(255, 255, 255, 0.09);
     padding: 20px;
     position: relative;
 }
 
-.bnuuy {
+.image {
     position: absolute;
-    left: -200px;
-    max-width: 100px;
+    left: max(-12vw, -14em);
 }
 
-.golem {
-    position: absolute;
-    left: -230px;
-    max-width: 230px;
+.image img {
+    max-width: 250px;
 }
 
-main {
-    max-width: 800px;
-    margin: auto;
-    background-color: tan;
-
-}
-
-
-#header {
-    position: relative;
-    text-align: center;
-    font-style: italic;
-    font-size: calc(16px + 2.5vw);
-    width: 100%;
-    background-position: center right;
-    background-position: center right
-}
-
-
-nav {
-	margin-bottom: 0 ;
-	padding: 1em ;
-	margin: auto ;
-    color:#1e2122;
-}
-
-.rainbow-text {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
-    color: transparent;
-  }
-
-a {
+.image a {
     text-decoration: none;
-    color:#1e2122;
+    border:0px;
+    outline:none;
+    border-width: 0px;
+    outline-width:0px;
+    border-bottom: none;
 }
 
-a:hover {
-    border-bottom: 1px solid white;
-    padding-bottom: 2px;
+.image a:focus, .image a:hover {
+    text-decoration: overline;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    padding-right: 10px;
-    margin-top: 10px;
+.image a:focus::after,
+.image a:hover::after {
+    content: '';
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+    box-shadow: inset 0 -2px 0 darkorange;
 }
 
-nav ul li {
-    display: inline-block;
-    padding-right: 30px;
+@media screen and (max-width: 1300px) {
+    .image {
+        position: static;
+        text-align: center;
+    } 
 }
 
-nav ul li:hover {
-    transform: rotate(-3deg);
-    text-decoration: underline;
-
-}
-
-nav ul li a {
-    display: inline-block;
-    margin-bottom: 5px;
-    width: 100%;
-    padding: 0;
-    font-size: 20px;
-}
