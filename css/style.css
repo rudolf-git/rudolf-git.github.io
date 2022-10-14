@@ -31,6 +31,7 @@ body {
     border-width: 0px;
     outline-width:0px;
     border-bottom: none;
+    position: relative;
 }
 
 .image a:focus, .image a:hover {

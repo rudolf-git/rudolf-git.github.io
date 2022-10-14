@@ -12,7 +12,7 @@ body {
     position: relative;
 }
 
-main {
+header {
     max-width: 800px;
     margin: auto;
     background-color: tan;
